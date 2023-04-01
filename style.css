@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: yellow;
+    background-color: orange;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     display: flex;   /*To center everything*/
@@ -28,5 +28,17 @@ body{
     margin-bottom: 30px;
     max-width: 100%;
     width: 350px;
+}
+
+.progress {
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    width: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.4s ease;
 }
 
