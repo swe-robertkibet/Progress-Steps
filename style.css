@@ -6,6 +6,7 @@
 }
 
 body{
+    background-color: yellow;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     display: flex;   /*To center everything*/
@@ -15,5 +16,17 @@ body{
     height: 100vh; /*Take entire height of the browser*/
     overflow: hidden; /*scroll bars not to show by default*/
 }
- 
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+}
 
